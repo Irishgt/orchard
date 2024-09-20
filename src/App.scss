@@ -2,6 +2,7 @@
 @import "../../orchard/src/styles/media-query.scss";
 @import "../../orchard/src/styles/style.scss";
 @import "../../orchard/src/styles/modal.scss";
+//Import SCSS Files
 
 @font-face {
   font-family: 'Open Sans';
@@ -61,5 +62,5 @@ p {
 label {
   text-transform: uppercase;
   color: var(--red);
-  font-weight: 400;
+  font-weight: 700;
 }
