@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    .mainWrapper { 
+        padding: 20px 20px !important;
+    }
+    .top-content {
+        flex-direction: column;
+    }
+    .images-main-container {
+        flex-direction: column;
+        margin-bottom: 40px;
+        gap: 0 !important;
+    }
+    .images:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .images img {
+        width: 100%; 
+    }
+    .latest-content-container { 
+       flex-direction: column !important;
+    }
+}
+
+
+//Medium Breakpoints 
+@media (max-width: 1024px) {
+    .top-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainWrapper {
+        padding: 10% !important;
+    }
+
+    .images-main-container {
+        margin-bottom: 40px;
+    }
+    
+    .images img {
+        width: 100%; 
+    }
+}
